@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+  }
+  iframe {
+    position: absolute;
+    border-radius: 1%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  
+  }
+  @font-face {
+    font-family: 'Beau';
+    font-weight: 400;
+    src: url("font/BeaufortforLOL-Bold.otf") format("opentype");
+  }
+  @font-face {
+    font-family: 'Beau C';
+    font-weight: 400;
+    src: url("font/BeaufortforLOL-BoldItalic.otf") format("opentype");
+  }
+  body{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Ffreljord-rakelstake.jpg&resize=:1200");
+  }
+  .pos4{
+    z-index: 1;
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 12%;
+    left: 2%;
+  }
+  .Header{
+    z-index: max;
+    font-family: Beau;
+    font-weight: 400;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+  }
+  .Header H1{
+    margin: 1% 0 1% 2%;
+    text-decoration: none;
+    color: #bd9849;
+  }
+  .Header a:hover{
+    text-decoration: none;
+    color: #bd9849;
+  }
+  .text h1{
+    z-index: max;
+    font-family: Beau C;
+    font-size: 100px;
+    font-weight: 400;
+    color: #d3d3d3;
+  }
+  .text h2 {
+    z-index: max;
+    font-family: Beau C;
+    font-size: 70px;
+    font-weight: 400;
+    color: #d3d3d3;
+  }
+  .text h3 {
+    z-index: max;
+    font-family: Beau C;
+    font-size: 100px;
+    font-weight: 400;
+    color: #d3d3d3;
+    writing-mode: vertical-lr;
+  }
+  .pos1{
+    font-size: 30px;
+    margin-left: 2%;
+  }
+  .pos2{
+    font-size: 15px;
+  }
+  .pos3{
+    font-size: 30px;
+  }
+  .pos5{
+    position: absolute;
+    right: 2%;
+    bottom: -5%;
+  }
+  .pos6{
+    position: absolute;
+    left: 2%;
+    bottom: 10%;
+  }
+  .pos7{
+    position: absolute;
+    left: 2%;
+    bottom: 4%;
+  }
+  .pos8{
+    position: absolute;
+    right: 15%;
+    top: 12%;
+  }
+  .pos9{
+    position: absolute;
+    right: 15%;
+    top: 42%;
+  }
+  .pos10{
+    position: absolute;
+    right: 15%;
+    top: 72%;
+  }
+  .pos11{
+    position: absolute;
+    right: 2%;
+    bottom: 4%;
+  }
+  
